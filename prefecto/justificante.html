@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Justificante</title>
+
+    <!-- Tema Flaty -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="container my-5">
+        <div class="card container bg-primary text-light">
+
+            <div class="row mt-5">
+                <div class="">
+                    <img src="../images/logo.png" alt="">
+                </div>
+                <div class="col">
+                    <div class="row justify-content-end container">
+                        <h1>IEHP</h1>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="row justify-content-end container">
+                        <h4>PREPARATORIA HERMOSA PROVINCIA No. 2</h4>
+                    </div>
+                    <div class="row justify-content-end container">
+                        <h4>JUSTIFICANTE DE FALTAS</h4>
+                    </div>
+                </div>
+            </div>
+
+            <card class="card-body">
+                <form>
+
+                    <div class="form-row justify-content-end">
+                        <div class="form-group col-4">
+                            <label for="fecha_expedicion">Fecha de expedicion</label>
+                            <input id="fecha_expedicion" type="date" class="form-control">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="fecha_vencimiento">Fecha de vencimiento</label>
+                            <input id="fecha_expedicion" type="date" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-8">
+                            <label for="alumno">Alumno</label>
+                            <input type="text" id="alumno" class="form-control" aria-describedby="alumnoHelp">
+                            <small id="alumnoHelp" class="form-text text-muted">No. de control o nombre completo del
+                                alumno</small>
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="grupo">Grupo</label>
+                            <input type="text" id="grupo" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="motivo">Motivo para otorgar el justificante</label>
+                        <textarea id="motivo" rows="5" class="form-control"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dias_justificados">Dias que se justifican</label>
+                        <input type="text" id="dias_justificados" class="form-control">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-4">
+                            <label for="del_mes">Del mes</label>
+                            <input type="text" id="del_mes" class="form-control">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="del_anio">Del año</label>
+                            <input type="text" id="del_anio" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="observaciones">Observaciones</label>
+                        <textarea id="motivo" rows="5" class="form-control"></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-4">
+                            <label for="solicitante">Firma de quien solicita y recibe el justificante</label>
+                            <input id="solicitante" type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="directivo">Autorizacion del personal directivo</label>
+                            <input id="directivo" type="text" class="form-control" aria-describedby="directivoHelp">
+                            <small id="directivoHelp" class="form-text text-muted">Solo para casos extraordinarios</small>
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="prefecto">"Por la superacion de mi pueblo"</label>
+                            <input id="prefecto" type="text" class="form-control" aria-describedby="prefectoHelp">
+                            <small id="prefectoHelp" class="form-text text-muted">Firma y nombre del prefecto</small>
+                        </div>
+                    </div>
+
+                    <!-- <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="grado">Grado</label>
+                            <input type="text" id="grado" class="form-control">
+                        </div>
+                        
+                    </div> -->
+
+                    <!-- <div class="form-group">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="alumno">Reporta</label>
+                        <input type="text" id="alumno" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="alumno">Firma del alumno</label>
+                        <input type="text" id="alumno" class="form-control">
+                    </div> -->
+                </form>
+            </card>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
