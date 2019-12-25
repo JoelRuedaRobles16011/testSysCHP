@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Prefecto</title>
+
+    <link rel="Icon" href="../images/logo.png">
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,7 +25,7 @@
                 Sistema CUESHP
             </span>
 
-            <a href="#" data-target="slide-out" class=" sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </nav>
 
         <ul id="slide-out" class="sidenav sidenav-fixed">
@@ -44,19 +46,19 @@
                 <div class="list-group list-group-flush">
                     <button type="button" class="list-group-item list-group-item-action active">Prefectura</button>
                     <button type="button" class="list-group-item list-group-item-action">Reglamento</button>
-                    <button id="anclaJustificante" type="button" class="list-group-item list-group-item-action">Justificante</button>
                     <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse"
-                        data-target="#sanciones" aria-expanded="false" aria-controls="sanciones">Aplicar sancion
+                        data-target="#sanciones" aria-expanded="false" aria-controls="sanciones">Formularios
                         <i class="material-icons badge" style="margin-left: 137px;">keyboard_arrow_down</i>
                     </button>
 
                     <div class="collapse" id="sanciones">
                         <div class="list-group list-group-flush bg-danger justify-content-end">
-                            <button id="anclaReporte" type="button" class="list-group-item list-group-item-action active">Reporte</button>
+                            <button id="anclaReporte" type="button"
+                                class="list-group-item list-group-item-action active sidenav-close">Reporte</button>
                             <button id="anclaCitatorio" type="button"
-                                class="list-group-item list-group-item-action active">Citatorio</button>
-                            <button type="button"
-                                class="list-group-item list-group-item-action active">Suspencion</button>
+                                class="list-group-item list-group-item-action active sidenav-close">Citatorio</button>
+                            <button id="anclaJustificante" type="button"
+                                class="list-group-item list-group-item-action active sidenav-close">Justificante</button>
                         </div>
                     </div>
 
