@@ -1,8 +1,8 @@
 USE SYSCHP;
 
 INSERT INTO CLAUSULA VALUES
-    (4, 'Faltas leves'),
-    (5, 'Flatas graves')
+    (4, 'Faltas leves', 'Falta leve: Es una infracción a la reglamentación institucional que se hace de manera espontánea, sin dolo y que no atenta contra la integridad física, psicológica y moral de las personas y/o bienes de la escuela. Se sanciona con un reporte disciplinario. La reincidencia en este tipo de faltas se considerará falta grave.'),
+    (5, 'Flatas graves', 'Falta grave: Es toda infracción a la reglamentación institucional que se hace con premeditación y alevosía, ocasionando el daño moral, físico o psicológico a la comunidad escolar o a los bienes de la escuela.')
 ;
 
 INSERT INTO ARTICULO VALUES
@@ -13,7 +13,7 @@ INSERT INTO ARTICULO VALUES
     (59, 5, 'Las siguientes son faltas graves y se sancionan con suspensión definitiva:')
 ;
 
-INSERT INTO REGLA VALUES
+INSERT INTO REGLA(NUMERO_LISTA, FK_ID_ARTICULO, DESCRIPCION) VALUES
     (1, 56, 'La interrupción de clases en los siguientes casos: hacer ruidos estridentes, gritar, silbar, provocar desorden, jugar o practicar actos similares dentro y fuera del salón.'),
     (2, 56, 'Jugar en la cancha o en otras áreas en horarios no permitidos.'),
     (3, 56, 'Introducir y/o consumir alimentos o bebidas al salón de clases, sala audiovisual, laboratorio de cómputo, biblioteca y laboratorio de ciencias.'),
@@ -39,34 +39,34 @@ INSERT INTO REGLA VALUES
     (23, 56, 'Encender, dentro del espacio escolar, cualquier tipo de aparatos receptores y reproductores de sonidos y videos, hacer sonar o tocar instrumentos musicales. Se excluyen los ensayos para las actividades artísticas, prácticas o función, si se efectúan en los escenarios a ellos destinados.'),
 
 
-    (1, 57, ''),
-    (2, 57, ''),
-    (3, 57, ''),
-    (4, 57, ''),
-    (5, 57, ''),
-    (6, 57, ''),
-    (7, 57, ''),
-    (8, 57, ''),
-    (9, 57, ''),
-    (10, 57, ''),
-    (11, 57, ''),
-    (12, 57, ''),
-    (13, 57, ''),
-    (14, 57, ''),
+    (1, 57, 'La introducción y/o consumo de tabaco (cigarrillos, pipas, etc.) en el plantel y sus alrededores. Además de la sanción correspondiente, se confiscarán los objetos.'),
+    (2, 57, 'La introducción al plantel de revistas, objetos, fotografías o material pornográfico y/o satánico o de cualquier otra índole que atente contra la integridad física, moral y psicológica de la comunidad escolar Además de la sanción correspondiente, se confiscarán los objetos.'),
+    (3, 57, 'La introducción de plumones, marcadores y/o spray. Además de la sanción correspondiente, se confiscarán los objetos.'),
+    (4, 57, 'El mal uso y/o la destrucción del mobiliario, así como el deterioro de bienes de la Institución o de la comunidad escolar, Además de la sanción correspondiente, se obligará al infractor a pagar el arancel que la Institución establezca por el daño ocasionado. Ensuciar con cualquier tipo de substancias o poner las manos sucias o pies en las paredes, pisos, techos, puertas pizarrones, vidrios, ventanas, mobiliario, equipo, escaleras, pasillos descansos y baños de las instalaciones escolares, así como, en alguna forma ocasionar su deterioro'),
+    (5, 57, 'El daño o destrucción de los materiales didácticos ajenos. Además de la sanción correspondiente, se obligará al infractor a pagar y/o reparar el daño.'),
+    (6, 57, 'La acción dolosa y/o reincidencia en cualquiera de las faltas leves.'),
+    (7, 57, 'La introducción y/o uso de todos aquellos objetos que puedan accidentes y los juegos de azar. Además de la sanción correspondiente, se confiscarán los objetos.'),
+    (8, 57, 'Suplantar o ser suplantado en la asistencia a clase o en la presentación de algún examen.'),
+    (9, 57, 'Entrar o salir del plantel sin autorización y/o en horarios no permitidos.'),
+    (10, 57, 'El uso en los hombres dentro del plantel de aretes y arracadas; y en hombres y mujeres el uso de cualquier objeto por piercing. Además de la sanción correspondiente, se confiscarán los objetos.'),
+    (11, 57, 'La complicidad y/o encubrimiento con el infractor en este tipo de faltas graves'),
+    (12, 57, 'Incitar a estudiantes y/o personal de la Institución para cometer actos de desobediencia, rebeldía, paros u otros que alteren el orden de las actividades, ocasionando problemas a la Institución o alguno de sus miembros.'),
+    (13, 57, 'Introducir o hacer estallar cualquier tipo de bombas u objetos malolientes en el aula o cualquier espacio del plantel.'),
+    (14, 57, 'Proporcionar información falsa (mentir), para obtener beneficio o perjuicio propio o de otro miembro de la comunidad escolar.'),
 
 
-    (1, 58, ''),
-    (2, 58, ''),
-    (3, 58, ''),
-    (4, 58, ''),
-    (5, 58, ''),
-    (6, 58, ''),
-    (7, 58, ''),
-    (8, 58, ''),
-    (9, 58, ''),
-    (10, 58, ''),
-    (11, 58, ''),
-    (12, 58, ''),
+    (1, 58, 'La manifestación de incultura u obscenidad traducidas en rayado, gravado, pintura o escritura y grafiti Además de la sanción correspondiente, se obligará al infractor a reparar el daño como lo determine el consejo sancionador.'),
+    (2, 58, 'La falta de respeto al personal docente, administrativo, a cualquier miembro de la comunidad escolar o a los visitantes del plantel.'),
+    (3, 58, 'La desobediencia al personal docente, a prefectura, al personal administrativo y a alguna autoridad escolar.'),
+    (4, 58, 'La realización de actos que comprometan la salud de algún miembro de la comunidad escolar.'),
+    (5, 58, 'La introducción y/o consumo de bebidas alcohólicas al plantel y sus alrededores, así como presentarse al plantel bajo los efectos de alcohol.'),
+    (6, 58, 'Realizar dentro del espacio escolar, estacionamiento o zona circunvecina, actos o conductas de cualquier índole que puedan considerarse lesivas a la moralidad de los miembros de la comunidad escolar y a la imagen institucional.'),
+    (7, 58, 'El comerciar, pedir cosas, dinero, ayuda o contratar servicios usando el nombre de la institución, sin la autorización previa y escrita de la misma.'),
+    (8, 58, 'Prender fuego dentro del plantel y sus alrededores. Además de la sanción correspondiente, se obligará al infractor a reparar el daño ocasionado, según lo determine el consejo sancionador.'),
+    (9, 58, 'Cualquier intento de agresión física a algún miembro de la comunidad escolar.'),
+    (10, 58, 'La agresión verbal a cualquier miembro de la comunidad escolar.'),
+    (11, 58, 'Ingresara plantel brincándose las bardas que delimitan el plantel.'),
+    (12, 58, 'Participar en el espacio institucional y zona periférica, en riñas dirimidas a golpes, o con armas.'),
 
 
     (1, 59, ''),
