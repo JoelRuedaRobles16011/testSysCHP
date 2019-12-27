@@ -69,17 +69,17 @@ INSERT INTO REGLA(NUMERO_LISTA, FK_ID_ARTICULO, DESCRIPCION) VALUES
     (12, 58, 'Participar en el espacio institucional y zona periférica, en riñas dirimidas a golpes, o con armas.'),
 
 
-    (1, 59, ''),
-    (2, 59, ''),
-    (3, 59, ''),
-    (4, 59, ''),
-    (5, 59, ''),
-    (6, 59, ''),
-    (7, 59, ''),
-    (8, 59, ''),
-    (9, 59, ''),
-    (10, 59, ''),
-    (11, 59, ''),
-    (12, 59, ''),
-    (13, 59, '')
+    (1, 59, 'La introducción, consumo y venta de todo tipo de estupefacientes, psicotrópicos, productos enervantes, tóxicos y solventes dentro del plantel y sus alrededores.'),
+    (2, 59, 'Los robos a la Institución o a cualquier miembro de la comunidad escolar, siendo cual fuere su magnitud o costo de los objetos sustraídos. Además de la sanción correspondiente, se obligará al infractor a devolver los objetos sustraídos, o reparar el daño conforme lo determine el consejo sancionador.'),
+    (3, 59, 'La introducción y portación de cualquier tipo arma, sea explosiva, blanca o de fuego. Además de la sanción correspondiente, se confiscarán los objetos.'),
+    (4, 59, 'La lesión o agresión física a cualquier miembro de la comunidad escolar, ya sea dentro o fuera del plantel. Además de la sanción correspondiente, el agresor se obliga a cubrir o reparar los daños que ocasione.'),
+    (5, 59, 'La introducción, portación y uso de explosivos, y cualquier objeto que contenga pólvora u otras sustancias químicas que puedan provocar estallidos.'),
+    (6, 59, 'Las conductas perniciosas que busquen denigrar la imagen de la Institución, y en las que inciten a agredir de forma verbal o física a algún miembro de la misma a su ideario. Expresar dentro del recinto escolar, ofensas a la Institución, a su Ideario, a su reglamentación o a cualquier miembro de su comunidad.'),
+    (7, 59, 'Formar o participar grupos dentro o fuera del plantel con el fin de molestar o afectara la comunidad escolar y/o la imagen Institucional.'),
+    (8, 59, 'La organización de eventos fuera del plantel, donde se involucre el nombre e imagen de la misma y se vea afectada por causa de las actividades que se realicen. La sanción que corresponda se aplicará también a los involucrados, según lo determine el consejo sancionador.'),
+    (9, 59, 'Robo, falsificación, alteración y mal uso de los documentos escolares oficiales.'),
+    (10, 59, 'Reprobar un grado por segunda vez.'),
+    (11, 59, 'Participar en actos dirigidos contra la Universidad de Guadalajara.'),
+    (12, 59, 'Pedir y/o recibir de los académicos o colaboradores de la institución, ayuda indebida para aumentar calificaciones, reducir el número de faltas de asistencia a clase, o gozar de privilegios en el curso, ofreciéndoles gratificaciones de cualquier especie.'),
+    (13, 59, 'La agresión verbal o física al personal administrativo o académico del plantel. Además de la sanción se cubrirán los daños que este ocasione.')
 ;
